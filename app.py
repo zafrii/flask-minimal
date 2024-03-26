@@ -4,7 +4,7 @@ import psycopg2, jsonify
 app = Flask(__name__)
 
 
-DATABASE_HOST = "localhost"
+DATABASE_HOST = "postgres"
 DATABASE_PORT = 5432
 DATABASE_USER = "postgres"
 DATABASE_PASSWORD = "123456"
